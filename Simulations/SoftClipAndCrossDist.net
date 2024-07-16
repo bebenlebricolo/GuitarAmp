@@ -1,0 +1,42 @@
+* C:\Users\btarrade\Documents\Perso\Repos\GuitarAmp\Simulations\SoftClipAndCrossDist.asc
+C1 N007 N006 22µ
+V1 +Vcc 0 18
+V2 -Vcc 0 -18
+D1 CrossingDistortion N002 1N4148
+D2 N002 CrossingDistortion 1N4148
+S1 N002 CrossingDistortion SoftClip 0 MYSWITCH
+V3 SoftClip 0 PULSE(0 5 3.3m 1n 1n 100m 200m 5)
+V4 N006 0 SINE(0 0.1 1K)
+XU2 N007 N002 +Vcc -Vcc CrossingDistortion LT1056
+R2 N002 0 1k
+C2 N003 N002 22µ
+R4 CrossingDistortion N003 500k
+D3 0 N008 1N4148
+D4 N008 0 1N4148
+R5 0 RealSoftClipping 100k
+S2 N008 RealSoftClipping HardClip 0 MYSWITCH
+V5 HardClip 0 PULSE(0 5 6.6m 1n 1n 10m 200m 5)
+XU1 CrossingDistortion N005 +Vcc -Vcc RealSoftClipping LT1056
+R1 N005 0 10k
+R3 RealSoftClipping N005 80k
+S3 N005 N004 NOTSoftClip 0 MYSWITCH
+R6 RealSoftClipping N004 4k
+Q1 NOTSoftClip N001 0 0 2N2222
+R7 SoftClip N001 1k
+R8 +Vcc NOTSoftClip 10k
+Q2 NOTHardClip N009 0 0 2N2222
+R9 HardClip N009 1k
+R10 +Vcc NOTHardClip 10k
+.model D D
+.lib C:\Users\btarrade\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\btarrade\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 0 10m 0 1m
+.model MYSWITCH SW (Ron=1 Roff=1MEG Vt=1 Vh=0.5)
+* "Soft" clipping really happens with back to back diodes, where we're\nusing the "knee" region of diode conduction.
+* The back to back diode in the feedback network of an op amp just\ndelays the moment where the inverting input stars to see the \noutput voltage of the amp.\nThis configuration produces visible crossing distortion !\n \nNote; this is particularly visible on large input signals.\nIf the input signal (V4) is rather small (around 200mV PP), \nthen most of the output signal is crossing distortion only,\ncapped by the original waveform (gain goes to 1 when diodes are conducting)
+* I started this design to check what should be the right terminology\nand distortion typology for a guitar amplifier.\n \n=> Soft clipping is achieved with a moderate input signal with a very large gain in the opamp section, \nsignal is overamplified until output signal of opamp exceeds the diodes forward voltage (~0.45V).\nWhen diodes start to conduct, the untouched signal is sent to the inverting input of the opamp, then \nreproducing input signal with high fidelity. On a sine wave, this gives us a square wave signal capped with round edges (sine \ntops and bottoms)\n \n=> Back to back diodes in the output path of this amp stage need a quite large signal (around 1V PP) in order to start clipping.\nStaying in that region provides "real" soft clipping around +0.4V and -0.4V (that region being maybe +-0.05V wide).\nThis is probably very hard to achieve in real world situation where input signal varies widely, so this turns out to\nclip input signal very harshly.\n \n=> Hard clipping is provided by very high gain and direct saturation of both transistors and opamps.\n \nRefs :\n* https://www.electrosmash.com/tube-screamer-analysis#jfet\n* https://www.electrosmash.com/boss-ds1-analysis
+.lib LTC.lib
+.backanno
+.end
