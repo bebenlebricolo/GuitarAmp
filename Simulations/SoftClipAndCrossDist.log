@@ -1,12 +1,12 @@
 LTspice 24.0.12 for Windows
-Circuit: * C:\Users\btarrade\Documents\Perso\Repos\GuitarAmp\Simulations\SoftClipAndCrossDist.asc
-Start Time: Tue Jul 16 16:51:52 2024
+Circuit: * Z:\home\groben\Repos\GuitarAmp\Simulations\SoftClipAndCrossDist.asc
+Start Time: Wed Jul 17 09:34:44 2024
 Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
 Warning: Multiple definitions of model "bc847b" Type: BJT
 solver = Normal
-Maximum thread count: 20
+Maximum thread count: 24
 tnom = 27
 temp = 27
 method = modified trap
@@ -30,5 +30,5 @@ Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.095 seconds.
+Total elapsed time: 0.151 seconds.
 
