@@ -20,11 +20,11 @@ Hardware/**/*.FCBak
 _autosave-*
 
 # LTSpice simulation files (cached)
-Hardware/**/*.log
-Hardware/**/*.raw
-Hardware/**/*.net
-Hardware/**/*.op.raw
-Hardware/**/Gerbers.zip
+Simulations/**/*.log
+Simulations/**/*.raw
+Simulations/**/*.net
+Simulations/**/*.op.raw
+Simulations/**/Gerbers.zip
 
 # Platform IO stuff
 .pio
