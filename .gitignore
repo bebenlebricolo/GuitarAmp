@@ -14,7 +14,7 @@ Generated
 # Kicad stuff
 fp-info-cache
 Hardware/**/*lck
-Hardware/**/*-backups
+Hardware/*-backups
 Hardware/**/*.FCBak
 \#auto_saved_files\#
 _autosave-*
