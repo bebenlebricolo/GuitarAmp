@@ -1065,10 +1065,16 @@
 		)
 	)
 	(junction
-		(at 59.69 58.42)
+		(at 63.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53908cc8-895d-4d06-8ff7-6e629a29f053")
+		(uuid "3f220c95-9af9-46f2-a0ce-30fb1cb72a19")
+	)
+	(junction
+		(at 52.07 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "468a8e0b-bf00-4a73-90fc-0f424e3710d7")
 	)
 	(junction
 		(at 40.64 63.5)
@@ -1081,6 +1087,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac5dbd15-137f-44bb-8f47-6e7c90b103c7")
+	)
+	(junction
+		(at 63.5 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0cd9327-ebff-4804-9236-0e792acd1444")
+	)
+	(junction
+		(at 88.9 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8eda58e-5562-42bb-a06f-d8efcc6317ef")
+	)
+	(junction
+		(at 52.07 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df483fee-0ed1-4a4d-b313-c54bbc79d6b2")
 	)
 	(wire
 		(pts
@@ -1104,23 +1128,53 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 60.96) (xy 82.55 71.12)
+			(xy 52.07 66.04) (xy 52.07 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "617af639-cdc4-48fe-90c9-1431ebc775de")
+		(uuid "46326099-399c-4211-94be-55533cc3621c")
 	)
 	(wire
 		(pts
-			(xy 59.69 58.42) (xy 67.31 58.42)
+			(xy 63.5 60.96) (xy 73.66 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62058e08-ba57-468b-80b7-44af72d57af8")
+		(uuid "51947d28-5359-4019-af7b-7e57aa18276b")
+	)
+	(wire
+		(pts
+			(xy 63.5 58.42) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c9f570-702d-4f82-a62b-ea37ba27b0b2")
+	)
+	(wire
+		(pts
+			(xy 97.79 50.8) (xy 97.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664828eb-beed-4adf-ac37-dd00a385df62")
+	)
+	(wire
+		(pts
+			(xy 63.5 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c9af29-b8f8-4af8-8faa-9b81c27138b0")
 	)
 	(wire
 		(pts
@@ -1134,6 +1188,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 66.04) (xy 73.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85706d0f-5a30-41d6-86d6-54084c90ce33")
+	)
+	(wire
+		(pts
 			(xy 31.75 58.42) (xy 40.64 58.42)
 		)
 		(stroke
@@ -1144,13 +1208,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 63.5) (xy 67.31 71.12)
+			(xy 63.5 60.96) (xy 63.5 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5d45374-b8e7-4d61-8503-2198350fbf46")
+		(uuid "a4b7ca69-8dcb-44ad-b18c-d785c3236166")
 	)
 	(wire
 		(pts
@@ -1184,6 +1248,36 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 63.5) (xy 97.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c512b148-ff94-402a-a3aa-734d93e23dfc")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 88.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01da8bc-b1b0-4ffe-9b13-e60b3391e556")
+	)
+	(wire
+		(pts
+			(xy 52.07 50.8) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf7d419-308b-4c45-b900-109e5d991b28")
+	)
+	(wire
+		(pts
 			(xy 31.75 60.96) (xy 35.56 60.96)
 		)
 		(stroke
@@ -1194,23 +1288,90 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 58.42) (xy 59.69 60.96)
+			(xy 88.9 50.8) (xy 88.9 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f34bd470-7ec9-4345-ad68-10e5b633c6c9")
+		(uuid "f4756bc6-ec84-4021-87ce-75f7824ed977")
 	)
-	(wire
-		(pts
-			(xy 67.31 71.12) (xy 82.55 71.12)
+	(label "Buff"
+		(at 97.79 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "cd2d8d99-fa16-43b2-9f10-3f3bc43d1c14")
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 52.07 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e67c233-a734-4b39-b842-65a65a4c7c4c")
+		(property "Reference" "#PWR05"
+			(at 52.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(uuid "fd88c65d-7c43-4681-b7f7-36f24d7445ab")
+		(property "Value" "GNDA"
+			(at 52.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 52.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "288e36c9-42b6-4d76-bc38-8cba084ff964")
+		)
+		(instances
+			(project "GuitarAmp"
+				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1230,7 +1391,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7n"
 			(at 44.45 53.34 90)
 			(effects
 				(font
@@ -1272,7 +1433,7 @@
 			(uuid "00559d04-6933-4749-bc9e-a60b616aefc7")
 		)
 		(instances
-			(project ""
+			(project "GuitarAmp"
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "C1")
 					(unit 1)
@@ -1282,7 +1443,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 64.77 180)
+		(at 52.07 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1291,7 +1452,7 @@
 		(fields_autoplaced yes)
 		(uuid "29470bf6-668b-4234-ae9d-6f6e9617c3c6")
 		(property "Reference" "R2"
-			(at 62.23 63.4999 0)
+			(at 54.61 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,8 +1460,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 62.23 66.0399 0)
+		(property "Value" "510k"
+			(at 54.61 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +1470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.468 64.77 90)
+			(at 53.848 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1479,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 64.77 0)
+			(at 52.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1488,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 64.77 0)
+			(at 52.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,6 +1506,76 @@
 			(project "GuitarAmp"
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f9407a6-b006-4222-9ea2-22e901a0ac9b")
+		(property "Reference" "R4"
+			(at 66.04 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 66.04 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.278 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "312fa895-b39b-4327-ad02-a75e6e8cf633")
+		)
+		(pin "2"
+			(uuid "d141e270-7096-4405-ac48-5814dbf9d6aa")
+		)
+		(instances
+			(project "GuitarAmp"
+				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1408,7 +1639,7 @@
 			(uuid "afd7ee8f-2711-4489-8ce4-cf27783ca3eb")
 		)
 		(instances
-			(project ""
+			(project "GuitarAmp"
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "#PWR01")
 					(unit 1)
@@ -1417,74 +1648,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 59.69 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b23dfa2-9895-4f87-bbad-731fd140e803")
-		(property "Reference" "#PWR02"
-			(at 59.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 59.69 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 59.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d628fd1-88b3-4d79-9ddb-23cbc93c7ae5")
-		)
-		(instances
-			(project "GuitarAmp"
-				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 129.54 101.6 0)
+		(at 78.74 104.14 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1493,7 +1658,7 @@
 		(fields_autoplaced yes)
 		(uuid "595ca75e-a32c-471e-98f6-f06dec76f9b7")
 		(property "Reference" "U1"
-			(at 129.54 91.44 0)
+			(at 78.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,7 +1666,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 129.54 93.98 0)
+			(at 78.74 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,7 +1674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 101.6 0)
+			(at 78.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,7 +1683,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 129.54 101.6 0)
+			(at 78.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,7 +1692,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 129.54 101.6 0)
+			(at 78.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,10 +1725,76 @@
 			(uuid "e0b13739-0e04-4591-800b-eed31501eb49")
 		)
 		(instances
-			(project ""
+			(project "GuitarAmp"
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 63.5 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "913dab89-b2ff-42b3-9342-3bce1bbde7c1")
+		(property "Reference" "#PWR06"
+			(at 63.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1915fe0b-a0ae-474b-abc5-0c9707128013")
+		)
+		(instances
+			(project "GuitarAmp"
+				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
+					(reference "#PWR06")
+					(unit 1)
 				)
 			)
 		)
@@ -1634,7 +1865,7 @@
 			(uuid "2248eda7-3bef-4985-82d5-de87fbf452f7")
 		)
 		(instances
-			(project ""
+			(project "GuitarAmp"
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "J1")
 					(unit 1)
@@ -1700,7 +1931,7 @@
 			(uuid "afe65c36-cc03-4f3e-b37d-4547a76c10d2")
 		)
 		(instances
-			(project ""
+			(project "GuitarAmp"
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "#PWR03")
 					(unit 1)
@@ -1710,16 +1941,16 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 74.93 60.96 0)
+		(at 81.28 63.5 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "af4ac269-41e4-4290-9478-adae673401ae")
 		(property "Reference" "U1"
-			(at 74.93 50.8 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +1958,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 74.93 53.34 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +1966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 60.96 0)
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +1975,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 74.93 60.96 0)
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1984,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 74.93 60.96 0)
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,31 +1993,31 @@
 			)
 		)
 		(pin "5"
-			(uuid "2c67f89c-2da5-49e3-9fd2-c6ff44c6debf")
+			(uuid "2c67f89c-2da5-49e3-9fd2-c6ff44c6dec0")
 		)
 		(pin "3"
-			(uuid "943b1f56-cfcc-4056-8cea-5058f34869ce")
+			(uuid "943b1f56-cfcc-4056-8cea-5058f34869cf")
 		)
 		(pin "1"
-			(uuid "d957fe50-96d1-45fd-8427-7225d5fd4460")
+			(uuid "d957fe50-96d1-45fd-8427-7225d5fd4461")
 		)
 		(pin "2"
-			(uuid "bf5f412e-b244-4ee1-b611-35f21e994f33")
+			(uuid "bf5f412e-b244-4ee1-b611-35f21e994f34")
 		)
 		(pin "4"
-			(uuid "182b62d7-04a9-48c5-890f-e2197c13de90")
+			(uuid "182b62d7-04a9-48c5-890f-e2197c13de91")
 		)
 		(pin "7"
-			(uuid "47434940-6f8c-4bc8-80be-7a280b17b3ad")
+			(uuid "47434940-6f8c-4bc8-80be-7a280b17b3ae")
 		)
 		(pin "6"
-			(uuid "caf6c301-8223-4332-bd70-8f7986818ac1")
+			(uuid "caf6c301-8223-4332-bd70-8f7986818ac2")
 		)
 		(pin "8"
-			(uuid "e0b13739-0e04-4591-800b-eed31501eb49")
+			(uuid "e0b13739-0e04-4591-800b-eed31501eb4a")
 		)
 		(instances
-			(project ""
+			(project "GuitarAmp"
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "U1")
 					(unit 1)
@@ -1849,31 +2080,31 @@
 			)
 		)
 		(pin "5"
-			(uuid "2c67f89c-2da5-49e3-9fd2-c6ff44c6debf")
+			(uuid "2c67f89c-2da5-49e3-9fd2-c6ff44c6dec1")
 		)
 		(pin "3"
-			(uuid "943b1f56-cfcc-4056-8cea-5058f34869ce")
+			(uuid "943b1f56-cfcc-4056-8cea-5058f34869d0")
 		)
 		(pin "1"
-			(uuid "d957fe50-96d1-45fd-8427-7225d5fd4460")
+			(uuid "d957fe50-96d1-45fd-8427-7225d5fd4462")
 		)
 		(pin "2"
-			(uuid "bf5f412e-b244-4ee1-b611-35f21e994f33")
+			(uuid "bf5f412e-b244-4ee1-b611-35f21e994f35")
 		)
 		(pin "4"
-			(uuid "182b62d7-04a9-48c5-890f-e2197c13de90")
+			(uuid "182b62d7-04a9-48c5-890f-e2197c13de92")
 		)
 		(pin "7"
-			(uuid "47434940-6f8c-4bc8-80be-7a280b17b3ad")
+			(uuid "47434940-6f8c-4bc8-80be-7a280b17b3af")
 		)
 		(pin "6"
-			(uuid "caf6c301-8223-4332-bd70-8f7986818ac1")
+			(uuid "caf6c301-8223-4332-bd70-8f7986818ac3")
 		)
 		(pin "8"
-			(uuid "e0b13739-0e04-4591-800b-eed31501eb49")
+			(uuid "e0b13739-0e04-4591-800b-eed31501eb4b")
 		)
 		(instances
-			(project ""
+			(project "GuitarAmp"
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "U1")
 					(unit 3)
@@ -1883,16 +2114,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 55.88 58.42 270)
-		(mirror x)
+		(at 76.2 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c9e6c742-3ad5-460a-b533-b03694116e3a")
-		(property "Reference" "R1"
-			(at 55.88 52.07 90)
+		(fields_autoplaced yes)
+		(uuid "c373882d-f358-4699-94f5-e20dba716989")
+		(property "Reference" "R5"
+			(at 76.2 44.6605 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +2131,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 55.88 54.61 90)
+			(at 76.2 47.2005 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +2139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 60.198 90)
+			(at 76.2 49.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +2148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 58.42 0)
+			(at 76.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +2157,75 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 58.42 0)
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa08d7dd-e905-4002-a827-1a53cc6591b7")
+		)
+		(pin "2"
+			(uuid "dd0739f3-ba80-4fe8-89f3-9a8d913335a3")
+		)
+		(instances
+			(project "GuitarAmp"
+				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9e6c742-3ad5-460a-b533-b03694116e3a")
+		(property "Reference" "R1"
+			(at 45.72 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510k"
+			(at 48.26 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.848 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,9 +2240,149 @@
 			(uuid "7bf1e68b-05e3-4b1e-a2cb-d779cee44fac")
 		)
 		(instances
-			(project ""
+			(project "GuitarAmp"
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d95e3112-3846-4c55-b47b-0785d11646c9")
+		(property "Reference" "R3"
+			(at 66.04 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 66.04 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.278 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cd8cc6d-ed21-401b-834c-464c569f581a")
+		)
+		(pin "2"
+			(uuid "eaef2578-9971-429e-9714-97c7cf435c55")
+		)
+		(instances
+			(project "GuitarAmp"
+				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 52.07 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d983da97-f830-410a-b737-f1daef651d14")
+		(property "Reference" "C2"
+			(at 55.88 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7n"
+			(at 55.88 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.1048 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 52.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5f4f044-81f1-4998-8a0a-25aad0526640")
+		)
+		(pin "1"
+			(uuid "491e32b3-2897-49b0-8c34-10d14f5b5047")
+		)
+		(instances
+			(project "GuitarAmp"
+				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2007,7 +2446,7 @@
 			(uuid "9eebf32c-a5bd-4cad-8055-0063c7c8d98c")
 		)
 		(instances
-			(project ""
+			(project "GuitarAmp"
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "#PWR04")
 					(unit 1)
