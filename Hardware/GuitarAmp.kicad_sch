@@ -5,7 +5,7 @@
 	(uuid "8de695db-d3fa-4789-95f5-ce25c26353ab")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:TL074"
+		(symbol "Amplifier_Operational:MC33079"
 			(pin_names
 				(offset 0.127)
 			)
@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TL074"
+			(property "Value" "MC33079"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -39,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
 				(at 1.27 5.08 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(property "Description" "Low Noise, Quad Operational Amplifiers, DIP-14/SOIC-14"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TL074_1_1"
+			(symbol "MC33079_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -151,7 +151,7 @@
 					)
 				)
 			)
-			(symbol "TL074_2_1"
+			(symbol "MC33079_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -219,7 +219,7 @@
 					)
 				)
 			)
-			(symbol "TL074_3_1"
+			(symbol "MC33079_3_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -287,7 +287,7 @@
 					)
 				)
 			)
-			(symbol "TL074_4_1"
+			(symbol "MC33079_4_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -355,7 +355,7 @@
 					)
 				)
 			)
-			(symbol "TL074_5_1"
+			(symbol "MC33079_5_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -1207,6 +1207,12 @@
 		(uuid "1a6ee672-6b77-4b01-8ee3-188de5385903")
 	)
 	(junction
+		(at 88.9 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "388a6ac8-cdc3-4978-8412-b847052f8208")
+	)
+	(junction
 		(at 63.5 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1223,12 +1229,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "556d8009-e27c-4c1d-9ace-e6ab904abefc")
-	)
-	(junction
-		(at 88.9 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65159533-e2ea-4db2-8e94-0cc001919350")
 	)
 	(junction
 		(at 40.64 63.5)
@@ -1498,6 +1498,16 @@
 		)
 		(uuid 7b9c5689-6622-40c9-839b-0516b0929a26)
 	)
+	(text "MC33079 Differential input resistance : 175k\nTotal input equivalent resistance (for high frequencies) ~ 250 k"
+		(exclude_from_sim no)
+		(at 68.072 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e00d7f7-ee00-4104-aaac-e220ccc9a8ae")
+	)
 	(text "Input buffer ~250kO input impedance."
 		(exclude_from_sim no)
 		(at 67.056 42.672 0)
@@ -1585,214 +1595,6 @@
 		(uuid "fd546229-806d-4278-a047-fcf4bdd68b4c")
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 81.28 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0549fc7a-bf72-4e10-8534-d199f789effe")
-		(property "Reference" "U1"
-			(at 81.28 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 81.28 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 82.55 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 81.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "b34a7046-5c58-4b0c-ae32-e8153d0fee37")
-		)
-		(pin "11"
-			(uuid "640332ad-e4fc-4743-a492-3884027fb874")
-		)
-		(pin "3"
-			(uuid "afbdd8f7-7341-4234-b586-a31599667538")
-		)
-		(pin "7"
-			(uuid "667d4747-574c-4300-a81d-a17097621996")
-		)
-		(pin "14"
-			(uuid "9e54fa16-48e0-4131-a92b-19e788e3308d")
-		)
-		(pin "13"
-			(uuid "50b7ef06-886c-41f2-8a4e-3c13880d24cb")
-		)
-		(pin "4"
-			(uuid "9de8c2ed-1545-4df0-97ea-b2084877bcd1")
-		)
-		(pin "1"
-			(uuid "0eaaddf7-e5a4-4270-a2ee-0b0ad8b8f26c")
-		)
-		(pin "12"
-			(uuid "dc0ff197-aa1e-42e8-98dc-3eda82e47121")
-		)
-		(pin "10"
-			(uuid "407bb9b4-3b39-4567-864c-5c9e8143451d")
-		)
-		(pin "5"
-			(uuid "6784e1c8-1c19-4290-8e44-5efdc5c84f17")
-		)
-		(pin "9"
-			(uuid "2c914ff1-748a-472b-b1e5-83b6827e4563")
-		)
-		(pin "2"
-			(uuid "bb3f005f-825e-424b-b694-6eac584c88a0")
-		)
-		(pin "6"
-			(uuid "6d94a2d8-fd8b-4c49-917b-0fbfea4670be")
-		)
-		(instances
-			(project ""
-				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 53.34 107.95 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0df295d1-6a6d-472d-8108-4cb77b2e410f")
-		(property "Reference" "U1"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 53.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 54.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 53.34 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "b34a7046-5c58-4b0c-ae32-e8153d0fee37")
-		)
-		(pin "11"
-			(uuid "640332ad-e4fc-4743-a492-3884027fb874")
-		)
-		(pin "3"
-			(uuid "afbdd8f7-7341-4234-b586-a31599667538")
-		)
-		(pin "7"
-			(uuid "667d4747-574c-4300-a81d-a17097621996")
-		)
-		(pin "14"
-			(uuid "9e54fa16-48e0-4131-a92b-19e788e3308d")
-		)
-		(pin "13"
-			(uuid "50b7ef06-886c-41f2-8a4e-3c13880d24cb")
-		)
-		(pin "4"
-			(uuid "9de8c2ed-1545-4df0-97ea-b2084877bcd1")
-		)
-		(pin "1"
-			(uuid "0eaaddf7-e5a4-4270-a2ee-0b0ad8b8f26c")
-		)
-		(pin "12"
-			(uuid "dc0ff197-aa1e-42e8-98dc-3eda82e47121")
-		)
-		(pin "10"
-			(uuid "407bb9b4-3b39-4567-864c-5c9e8143451d")
-		)
-		(pin "5"
-			(uuid "6784e1c8-1c19-4290-8e44-5efdc5c84f17")
-		)
-		(pin "9"
-			(uuid "2c914ff1-748a-472b-b1e5-83b6827e4563")
-		)
-		(pin "2"
-			(uuid "bb3f005f-825e-424b-b694-6eac584c88a0")
-		)
-		(pin "6"
-			(uuid "6d94a2d8-fd8b-4c49-917b-0fbfea4670be")
-		)
-		(instances
-			(project ""
-				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
-					(reference "U1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 52.07 74.93 0)
 		(unit 1)
@@ -1859,25 +1661,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 68.58 107.95 0)
-		(unit 4)
+		(lib_id "Amplifier_Operational:MC33079")
+		(at 81.28 63.5 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17533f20-8737-4f64-a271-4cffbc165470")
-		(property "Reference" "U1"
-			(at 68.58 99.06 0)
+		(uuid "202c51b7-d1f8-40d6-b9f7-9e4d0ea622cc")
+		(property "Reference" "U3"
+			(at 81.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TL074"
-			(at 68.58 100.33 0)
+		(property "Value" "MC33079"
+			(at 81.28 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +1687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 105.41 0)
+			(at 80.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,8 +1695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 69.85 102.87 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+			(at 82.55 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,62 +1704,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 68.58 107.95 0)
+		(property "Description" "Low Noise, Quad Operational Amplifiers, DIP-14/SOIC-14"
+			(at 81.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "8"
-			(uuid "b34a7046-5c58-4b0c-ae32-e8153d0fee37")
-		)
-		(pin "11"
-			(uuid "640332ad-e4fc-4743-a492-3884027fb874")
-		)
-		(pin "3"
-			(uuid "afbdd8f7-7341-4234-b586-a31599667538")
-		)
-		(pin "7"
-			(uuid "667d4747-574c-4300-a81d-a17097621996")
-		)
-		(pin "14"
-			(uuid "9e54fa16-48e0-4131-a92b-19e788e3308d")
-		)
-		(pin "13"
-			(uuid "50b7ef06-886c-41f2-8a4e-3c13880d24cb")
-		)
-		(pin "4"
-			(uuid "9de8c2ed-1545-4df0-97ea-b2084877bcd1")
-		)
-		(pin "1"
-			(uuid "0eaaddf7-e5a4-4270-a2ee-0b0ad8b8f26c")
-		)
-		(pin "12"
-			(uuid "dc0ff197-aa1e-42e8-98dc-3eda82e47121")
 		)
 		(pin "10"
-			(uuid "407bb9b4-3b39-4567-864c-5c9e8143451d")
+			(uuid "35c86ee0-03d4-49f5-b7d5-b8414d649e83")
+		)
+		(pin "12"
+			(uuid "972ba1cb-7699-4e78-a5ae-4e3eafc936dd")
+		)
+		(pin "14"
+			(uuid "265870b3-fd94-4c41-930a-0e25c3e9e9d4")
+		)
+		(pin "7"
+			(uuid "151331b9-4c70-43c5-9e69-69d711558e98")
+		)
+		(pin "11"
+			(uuid "7a5b2e20-9cae-484a-b466-da03d201ff1a")
 		)
 		(pin "5"
-			(uuid "6784e1c8-1c19-4290-8e44-5efdc5c84f17")
+			(uuid "6b2ce09d-90d0-40f7-b172-0a7d777a85f7")
 		)
-		(pin "9"
-			(uuid "2c914ff1-748a-472b-b1e5-83b6827e4563")
+		(pin "4"
+			(uuid "5dbce35f-60eb-40bb-86eb-9926441ae048")
 		)
-		(pin "2"
-			(uuid "bb3f005f-825e-424b-b694-6eac584c88a0")
+		(pin "8"
+			(uuid "b2630f2f-f52b-4bdb-a9e7-f1b57e683a64")
+		)
+		(pin "1"
+			(uuid "50ae232f-3089-4aac-8790-449568412901")
 		)
 		(pin "6"
-			(uuid "6d94a2d8-fd8b-4c49-917b-0fbfea4670be")
+			(uuid "83280a30-2b24-4507-9947-e5741f6c2bb6")
+		)
+		(pin "13"
+			(uuid "23e56bd3-99df-4552-95a3-12325ae8c498")
+		)
+		(pin "9"
+			(uuid "468404ce-cbcd-4ff9-80fe-81ad34a1ed95")
+		)
+		(pin "2"
+			(uuid "cfcbf677-38a6-4cd9-98ef-1c706e59bf94")
+		)
+		(pin "3"
+			(uuid "ea1fb141-6637-4797-b127-f562522a08a5")
 		)
 		(instances
 			(project ""
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
-					(reference "U1")
-					(unit 4)
+					(reference "U3")
+					(unit 1)
 				)
 			)
 		)
@@ -2171,6 +1973,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:MC33079")
+		(at 120.65 31.75 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49e0415f-e85d-4932-9ffc-adadd30ac27f")
+		(property "Reference" "U2"
+			(at 120.65 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC33079"
+			(at 120.65 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+			(at 121.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Noise, Quad Operational Amplifiers, DIP-14/SOIC-14"
+			(at 120.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "fe9aaa8f-1263-4e17-90a3-f927264e9d84")
+		)
+		(pin "12"
+			(uuid "972ba1cb-7699-4e78-a5ae-4e3eafc936dd")
+		)
+		(pin "14"
+			(uuid "265870b3-fd94-4c41-930a-0e25c3e9e9d4")
+		)
+		(pin "7"
+			(uuid "151331b9-4c70-43c5-9e69-69d711558e98")
+		)
+		(pin "11"
+			(uuid "7a5b2e20-9cae-484a-b466-da03d201ff1a")
+		)
+		(pin "5"
+			(uuid "6b2ce09d-90d0-40f7-b172-0a7d777a85f7")
+		)
+		(pin "4"
+			(uuid "5dbce35f-60eb-40bb-86eb-9926441ae048")
+		)
+		(pin "8"
+			(uuid "31f0eb2e-63d5-4778-ac8f-f24cdc04eb96")
+		)
+		(pin "1"
+			(uuid "50ae232f-3089-4aac-8790-449568412901")
+		)
+		(pin "6"
+			(uuid "83280a30-2b24-4507-9947-e5741f6c2bb6")
+		)
+		(pin "13"
+			(uuid "23e56bd3-99df-4552-95a3-12325ae8c498")
+		)
+		(pin "9"
+			(uuid "c5d90834-52c2-4018-99e4-5e8d158304bb")
+		)
+		(pin "2"
+			(uuid "cfcbf677-38a6-4cd9-98ef-1c706e59bf94")
+		)
+		(pin "3"
+			(uuid "ea1fb141-6637-4797-b127-f562522a08a5")
+		)
+		(instances
+			(project "GuitarAmp"
+				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 40.64 63.5 0)
 		(unit 1)
@@ -2232,6 +2138,112 @@
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "#PWR01")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MC33079")
+		(at 49.53 27.94 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f59e4eb-43f4-4cac-ba32-8ed02dc2b399")
+		(property "Reference" "U3"
+			(at 48.26 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MC33079"
+			(at 48.26 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+			(at 50.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Noise, Quad Operational Amplifiers, DIP-14/SOIC-14"
+			(at 49.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "35c86ee0-03d4-49f5-b7d5-b8414d649e83")
+		)
+		(pin "12"
+			(uuid "972ba1cb-7699-4e78-a5ae-4e3eafc936dd")
+		)
+		(pin "14"
+			(uuid "265870b3-fd94-4c41-930a-0e25c3e9e9d4")
+		)
+		(pin "7"
+			(uuid "151331b9-4c70-43c5-9e69-69d711558e98")
+		)
+		(pin "11"
+			(uuid "7a5b2e20-9cae-484a-b466-da03d201ff1a")
+		)
+		(pin "5"
+			(uuid "6b2ce09d-90d0-40f7-b172-0a7d777a85f7")
+		)
+		(pin "4"
+			(uuid "5dbce35f-60eb-40bb-86eb-9926441ae048")
+		)
+		(pin "8"
+			(uuid "b2630f2f-f52b-4bdb-a9e7-f1b57e683a64")
+		)
+		(pin "1"
+			(uuid "50ae232f-3089-4aac-8790-449568412901")
+		)
+		(pin "6"
+			(uuid "83280a30-2b24-4507-9947-e5741f6c2bb6")
+		)
+		(pin "13"
+			(uuid "23e56bd3-99df-4552-95a3-12325ae8c498")
+		)
+		(pin "9"
+			(uuid "468404ce-cbcd-4ff9-80fe-81ad34a1ed95")
+		)
+		(pin "2"
+			(uuid "cfcbf677-38a6-4cd9-98ef-1c706e59bf94")
+		)
+		(pin "3"
+			(uuid "ea1fb141-6637-4797-b127-f562522a08a5")
+		)
+		(instances
+			(project ""
+				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
+					(reference "U3")
+					(unit 5)
 				)
 			)
 		)
@@ -2511,112 +2523,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 49.53 27.94 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5ebaddb-4593-4731-8397-d404d7d1f9f5")
-		(property "Reference" "U1"
-			(at 48.26 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TL074"
-			(at 48.26 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 50.8 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 49.53 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "b34a7046-5c58-4b0c-ae32-e8153d0fee37")
-		)
-		(pin "11"
-			(uuid "640332ad-e4fc-4743-a492-3884027fb874")
-		)
-		(pin "3"
-			(uuid "afbdd8f7-7341-4234-b586-a31599667538")
-		)
-		(pin "7"
-			(uuid "667d4747-574c-4300-a81d-a17097621996")
-		)
-		(pin "14"
-			(uuid "9e54fa16-48e0-4131-a92b-19e788e3308d")
-		)
-		(pin "13"
-			(uuid "50b7ef06-886c-41f2-8a4e-3c13880d24cb")
-		)
-		(pin "4"
-			(uuid "9de8c2ed-1545-4df0-97ea-b2084877bcd1")
-		)
-		(pin "1"
-			(uuid "0eaaddf7-e5a4-4270-a2ee-0b0ad8b8f26c")
-		)
-		(pin "12"
-			(uuid "dc0ff197-aa1e-42e8-98dc-3eda82e47121")
-		)
-		(pin "10"
-			(uuid "407bb9b4-3b39-4567-864c-5c9e8143451d")
-		)
-		(pin "5"
-			(uuid "6784e1c8-1c19-4290-8e44-5efdc5c84f17")
-		)
-		(pin "9"
-			(uuid "2c914ff1-748a-472b-b1e5-83b6827e4563")
-		)
-		(pin "2"
-			(uuid "bb3f005f-825e-424b-b694-6eac584c88a0")
-		)
-		(pin "6"
-			(uuid "6d94a2d8-fd8b-4c49-917b-0fbfea4670be")
-		)
-		(instances
-			(project ""
-				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
-					(reference "U1")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 99.06 63.5 270)
 		(unit 1)
@@ -2695,15 +2601,15 @@
 		(fields_autoplaced yes)
 		(uuid "c373882d-f358-4699-94f5-e20dba716989")
 		(property "Reference" "R5"
-			(at 76.2 44.6605 90)
+			(at 76.2 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 76.2 47.2005 90)
+		(property "Value" "15k"
+			(at 76.2 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,6 +2788,110 @@
 				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
 					(reference "R1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MC33079")
+		(at 139.7 31.75 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8223647-a455-41f7-9fb7-755394874bc3")
+		(property "Reference" "U2"
+			(at 139.7 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC33079"
+			(at 139.7 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+			(at 140.97 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Noise, Quad Operational Amplifiers, DIP-14/SOIC-14"
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "35c86ee0-03d4-49f5-b7d5-b8414d649e85")
+		)
+		(pin "12"
+			(uuid "b0464cbb-0f3e-45f4-a35f-f070956c0e2d")
+		)
+		(pin "14"
+			(uuid "8d6fd9b3-220c-4989-9713-8a24f47f011d")
+		)
+		(pin "7"
+			(uuid "151331b9-4c70-43c5-9e69-69d711558e9a")
+		)
+		(pin "11"
+			(uuid "7a5b2e20-9cae-484a-b466-da03d201ff1c")
+		)
+		(pin "5"
+			(uuid "6b2ce09d-90d0-40f7-b172-0a7d777a85f9")
+		)
+		(pin "4"
+			(uuid "5dbce35f-60eb-40bb-86eb-9926441ae04a")
+		)
+		(pin "8"
+			(uuid "b2630f2f-f52b-4bdb-a9e7-f1b57e683a66")
+		)
+		(pin "1"
+			(uuid "50ae232f-3089-4aac-8790-449568412903")
+		)
+		(pin "6"
+			(uuid "83280a30-2b24-4507-9947-e5741f6c2bb8")
+		)
+		(pin "13"
+			(uuid "2aa86814-1103-4a7b-8ca3-579733e9943d")
+		)
+		(pin "9"
+			(uuid "468404ce-cbcd-4ff9-80fe-81ad34a1ed97")
+		)
+		(pin "2"
+			(uuid "cfcbf677-38a6-4cd9-98ef-1c706e59bf96")
+		)
+		(pin "3"
+			(uuid "ea1fb141-6637-4797-b127-f562522a08a7")
+		)
+		(instances
+			(project "GuitarAmp"
+				(path "/8de695db-d3fa-4789-95f5-ce25c26353ab"
+					(reference "U2")
+					(unit 4)
 				)
 			)
 		)
