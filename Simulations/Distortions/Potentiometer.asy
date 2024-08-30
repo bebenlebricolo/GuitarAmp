@@ -1,0 +1,1 @@
+../Custom symbols/Potentiometer.asy
